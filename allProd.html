@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;500;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ChooseShose</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <div class="navTop">
+        <div class="navItem">
+          <a href="index.html" class="logo"> <h2>E-commerce</h2></a>
+        </div>
+        <div class="navItem">
+          <div class="search">
+            <input type="text" placeholder="Search..." class="searchInput" />
+            <img src="./img/search.png" alt="" width="20" height="20" />
+          </div>
+        </div>
+        <div class="navItem">
+          <span class="myCart"><img src="./img/chariot.png" alt="" class="iconCart"></span>
+        </div>
+
+        <!-- cart -->
+        <div class="cart">
+          <div class="titleCart">Your Cart</div>
+          <div class="contentCart">
+            
+          </div>
+            <div class="total">
+              <div class="total-title">Total</div>
+              <div class="total-price">$0</div>
+            </div>
+            <button class="btn-buy">Buy now</button>
+
+            <span class="close-cart">X</span>
+          
+        </div> <!--Fin cart -->
+
+
+      </div>
+      <div class="navBottom">
+        <h3 class="menuItem">styel1</h3>
+        <h3 class="menuItem">styel2</h3>
+        <h3 class="menuItem">styel3</h3>
+        <h3 class="menuItem">styel4</h3>
+        <h3 class="menuItem"><a href="allProd.html">All</a></h3>
+      </div>
+    </nav>
+
+    <div class="allProd">
+      <div class="allProTitle">Shop all Products</div>
+
+      <div class="shopContent">
+        <div class="shopBox">
+          <img src="./img/crater.png" class="imgBox" alt="" />
+          <h2 class="titleBox">crater chaussure</h2>
+          <span class="priceBox">64$</span>
+          <button class="add-cart">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="newSeason">
+      <div class="nsItem imgNs">
+        <img src="https://images.pexels.com/photos/601177/pexels-photo-601177.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="nsImg">
+      </div>
+      <div class="nsItem">
+       <h3 class="nsTitleSm">WINTER NEW ARRIVALS</h3> 
+       <h2 class="nsTitle">NEW Season</h2>
+       <h2 class="nsTitle">NEW Collectio</h2>
+       <a href="#navbar">
+        <button class="nsBtn">Choose your style</button>
+       </a>
+
+      </div>
+      <div class="nsItem imgNs">
+        <img src="https://images.pexels.com/photos/6346/healthy-light-woman-legs.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" class="nsImg">
+      </div>
+    </div>
+    <footer>
+      <div class="footerleft">
+        <div class="footerMenu">
+          <h2 class="fooTitle">About Us</h2>
+          <ul class="fooMenuList">
+            <li class="fooListItem">company</li>
+            <li class="fooListItem">contact</li>
+            <li class="fooListItem">careers</li>
+            <li class="fooListItem">stores</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h2 class="fooTitle">Uself Link</h2>
+          <ul class="fooMenuList">
+            <li class="fooListItem">support</li>
+            <li class="fooListItem">refund</li>
+            <li class="fooListItem">FAQ</li>
+            <li class="fooListItem">stories</li>
+          </ul>
+        </div>
+        <div class="footerMenu">
+          <h2 class="fooTitle">Products</h2>
+          <ul class="fooMenuList">
+            <li class="fooListItem">airMax</li>
+            <li class="fooListItem">blazer</li>
+            <li class="fooListItem">crater</li>
+            <li class="fooListItem">hippie</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footerRight">
+        <div class="footerMenuRight">
+          <h1 class="fooTitle">Subscribe to our newsletter</h1>
+          <div class="fooMail">
+            <input type="text" placeholder="your@mail.com" class="fooInput" />
+            <button class="fooBtn">Join!</button>
+          </div>
+        </div>
+        <div class="footerMenuRight">
+          <h1 class="fooTitle">Follow Us</h1>
+          <div class="fooMail">
+            <div class="fooIcons">
+              <img src="./img/facebook.png" alt="" class="fooIcon" />
+              <img src="./img/twitter.png" alt="" class="fooIcon" />
+              <img src="./img/instagram.png" alt="" class="fooIcon" />
+              <img src="./img/whatsapp.png" alt="" class="fooIcon" />
+            </div>
+          </div>
+        </div>
+
+        <div class="footerMenuRight">
+          <span class="copyright">@Loubna Damri. All right reserved 2022</span>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
